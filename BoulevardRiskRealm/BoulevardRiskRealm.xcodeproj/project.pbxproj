@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68AD25C9A71301D1569E456 /* Pods_BoulevardRiskRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E0D4E7A0F066F6A19BBF34 /* Pods_BoulevardRiskRealm.framework */; };
+		FF7460FA2D5E262B00E7DEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7460F92D5E262B00E7DEF7 /* AppDelegate.swift */; };
+		FF7460FC2D5E262B00E7DEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7460FB2D5E262B00E7DEF7 /* SceneDelegate.swift */; };
+		FF7460FE2D5E262B00E7DEF7 /* BoulevardStartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7460FD2D5E262B00E7DEF7 /* BoulevardStartPage.swift */; };
+		FF7461012D5E262B00E7DEF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7460FF2D5E262B00E7DEF7 /* Main.storyboard */; };
+		FF7461032D5E262D00E7DEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7461022D5E262D00E7DEF7 /* Assets.xcassets */; };
+		FF7461062D5E262D00E7DEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7461042D5E262D00E7DEF7 /* LaunchScreen.storyboard */; };
+		FF74610E2D5E282E00E7DEF7 /* BoulevardPokerRiskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74610D2D5E282E00E7DEF7 /* BoulevardPokerRiskPage.swift */; };
+		FF7461102D5E284800E7DEF7 /* BoulevardDicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74610F2D5E284800E7DEF7 /* BoulevardDicePage.swift */; };
+		FF7461122D5E285D00E7DEF7 /* BoulevardSettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7461112D5E285D00E7DEF7 /* BoulevardSettingPage.swift */; };
+		FF7461152D5E28AC00E7DEF7 /* UIView+ra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7461142D5E28AC00E7DEF7 /* UIView+ra.swift */; };
+		FF7461172D5E28C300E7DEF7 /* UIViewController+back.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7461162D5E28C300E7DEF7 /* UIViewController+back.swift */; };
+		FF7461192D5E29C600E7DEF7 /* BoulevardHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7461182D5E29C600E7DEF7 /* BoulevardHomePage.swift */; };
+		FF74611B2D5E2A0200E7DEF7 /* BoulevardTermPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74611A2D5E2A0200E7DEF7 /* BoulevardTermPage.swift */; };
+		FF74611D2D5E2A0F00E7DEF7 /* BoulevardAboutUsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74611C2D5E2A0F00E7DEF7 /* BoulevardAboutUsPage.swift */; };
+		FF74611F2D5E2A1D00E7DEF7 /* BoulevardPolicyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF74611E2D5E2A1D00E7DEF7 /* BoulevardPolicyPage.swift */; };
+		FF7461212D5E2CE900E7DEF7 /* BoulevardNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7461202D5E2CE900E7DEF7 /* BoulevardNavigationController.swift */; };
+		FF7461252D5E322100E7DEF7 /* UIViewController+tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7461242D5E322100E7DEF7 /* UIViewController+tool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CFBF4DF17FA098D7F0B3327 /* Pods-BoulevardRiskRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoulevardRiskRealm.debug.xcconfig"; path = "Target Support Files/Pods-BoulevardRiskRealm/Pods-BoulevardRiskRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		61E0D4E7A0F066F6A19BBF34 /* Pods_BoulevardRiskRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoulevardRiskRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15E2600E8A897105B060DD0 /* Pods-BoulevardRiskRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoulevardRiskRealm.release.xcconfig"; path = "Target Support Files/Pods-BoulevardRiskRealm/Pods-BoulevardRiskRealm.release.xcconfig"; sourceTree = "<group>"; };
+		FF7460F62D5E262B00E7DEF7 /* BoulevardRiskRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoulevardRiskRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7460F92D5E262B00E7DEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF7460FB2D5E262B00E7DEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF7460FD2D5E262B00E7DEF7 /* BoulevardStartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardStartPage.swift; sourceTree = "<group>"; };
+		FF7461002D5E262B00E7DEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7461022D5E262D00E7DEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7461052D5E262D00E7DEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7461072D5E262D00E7DEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF74610D2D5E282E00E7DEF7 /* BoulevardPokerRiskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardPokerRiskPage.swift; sourceTree = "<group>"; };
+		FF74610F2D5E284800E7DEF7 /* BoulevardDicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardDicePage.swift; sourceTree = "<group>"; };
+		FF7461112D5E285D00E7DEF7 /* BoulevardSettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardSettingPage.swift; sourceTree = "<group>"; };
+		FF7461142D5E28AC00E7DEF7 /* UIView+ra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ra.swift"; sourceTree = "<group>"; };
+		FF7461162D5E28C300E7DEF7 /* UIViewController+back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+back.swift"; sourceTree = "<group>"; };
+		FF7461182D5E29C600E7DEF7 /* BoulevardHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardHomePage.swift; sourceTree = "<group>"; };
+		FF74611A2D5E2A0200E7DEF7 /* BoulevardTermPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardTermPage.swift; sourceTree = "<group>"; };
+		FF74611C2D5E2A0F00E7DEF7 /* BoulevardAboutUsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardAboutUsPage.swift; sourceTree = "<group>"; };
+		FF74611E2D5E2A1D00E7DEF7 /* BoulevardPolicyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardPolicyPage.swift; sourceTree = "<group>"; };
+		FF7461202D5E2CE900E7DEF7 /* BoulevardNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulevardNavigationController.swift; sourceTree = "<group>"; };
+		FF7461222D5E322000E7DEF7 /* BoulevardRiskRealm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoulevardRiskRealm-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF7461232D5E322100E7DEF7 /* UIViewController+tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+tool.h"; sourceTree = "<group>"; };
+		FF7461242D5E322100E7DEF7 /* UIViewController+tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+tool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7460F32D5E262B00E7DEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68AD25C9A71301D1569E456 /* Pods_BoulevardRiskRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC9426016F1D89A944727DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CFBF4DF17FA098D7F0B3327 /* Pods-BoulevardRiskRealm.debug.xcconfig */,
+				A15E2600E8A897105B060DD0 /* Pods-BoulevardRiskRealm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7C335D2C5930EE8865A6025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61E0D4E7A0F066F6A19BBF34 /* Pods_BoulevardRiskRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7460ED2D5E262B00E7DEF7 = {
+			isa = PBXGroup;
+			children = (
+				FF7460F82D5E262B00E7DEF7 /* BoulevardRiskRealm */,
+				FF7460F72D5E262B00E7DEF7 /* Products */,
+				8DC9426016F1D89A944727DF /* Pods */,
+				F7C335D2C5930EE8865A6025 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7460F72D5E262B00E7DEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7460F62D5E262B00E7DEF7 /* BoulevardRiskRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7460F82D5E262B00E7DEF7 /* BoulevardRiskRealm */ = {
+			isa = PBXGroup;
+			children = (
+				FF7461132D5E288400E7DEF7 /* EasyFunc */,
+				FF7460F92D5E262B00E7DEF7 /* AppDelegate.swift */,
+				FF7460FB2D5E262B00E7DEF7 /* SceneDelegate.swift */,
+				FF7460FD2D5E262B00E7DEF7 /* BoulevardStartPage.swift */,
+				FF7461202D5E2CE900E7DEF7 /* BoulevardNavigationController.swift */,
+				FF7461182D5E29C600E7DEF7 /* BoulevardHomePage.swift */,
+				FF74610D2D5E282E00E7DEF7 /* BoulevardPokerRiskPage.swift */,
+				FF74610F2D5E284800E7DEF7 /* BoulevardDicePage.swift */,
+				FF7461112D5E285D00E7DEF7 /* BoulevardSettingPage.swift */,
+				FF74611A2D5E2A0200E7DEF7 /* BoulevardTermPage.swift */,
+				FF74611C2D5E2A0F00E7DEF7 /* BoulevardAboutUsPage.swift */,
+				FF74611E2D5E2A1D00E7DEF7 /* BoulevardPolicyPage.swift */,
+				FF7460FF2D5E262B00E7DEF7 /* Main.storyboard */,
+				FF7461022D5E262D00E7DEF7 /* Assets.xcassets */,
+				FF7461042D5E262D00E7DEF7 /* LaunchScreen.storyboard */,
+				FF7461072D5E262D00E7DEF7 /* Info.plist */,
+			);
+			path = BoulevardRiskRealm;
+			sourceTree = "<group>";
+		};
+		FF7461132D5E288400E7DEF7 /* EasyFunc */ = {
+			isa = PBXGroup;
+			children = (
+				FF7461142D5E28AC00E7DEF7 /* UIView+ra.swift */,
+				FF7461162D5E28C300E7DEF7 /* UIViewController+back.swift */,
+				FF7461232D5E322100E7DEF7 /* UIViewController+tool.h */,
+				FF7461242D5E322100E7DEF7 /* UIViewController+tool.m */,
+				FF7461222D5E322000E7DEF7 /* BoulevardRiskRealm-Bridging-Header.h */,
+			);
+			path = EasyFunc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7460F52D5E262B00E7DEF7 /* BoulevardRiskRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF74610A2D5E262D00E7DEF7 /* Build configuration list for PBXNativeTarget "BoulevardRiskRealm" */;
+			buildPhases = (
+				18AA7CC1CE0761F23C79A1A3 /* [CP] Check Pods Manifest.lock */,
+				FF7460F22D5E262B00E7DEF7 /* Sources */,
+				FF7460F32D5E262B00E7DEF7 /* Frameworks */,
+				FF7460F42D5E262B00E7DEF7 /* Resources */,
+				F930F40DF0F9A9BC6BAAB3F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoulevardRiskRealm;
+			productName = BoulevardRiskRealm;
+			productReference = FF7460F62D5E262B00E7DEF7 /* BoulevardRiskRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7460EE2D5E262B00E7DEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FF7460F52D5E262B00E7DEF7 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = FF7460F12D5E262B00E7DEF7 /* Build configuration list for PBXProject "BoulevardRiskRealm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7460ED2D5E262B00E7DEF7;
+			productRefGroup = FF7460F72D5E262B00E7DEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7460F52D5E262B00E7DEF7 /* BoulevardRiskRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7460F42D5E262B00E7DEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7461062D5E262D00E7DEF7 /* LaunchScreen.storyboard in Resources */,
+				FF7461032D5E262D00E7DEF7 /* Assets.xcassets in Resources */,
+				FF7461012D5E262B00E7DEF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18AA7CC1CE0761F23C79A1A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoulevardRiskRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F930F40DF0F9A9BC6BAAB3F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoulevardRiskRealm/Pods-BoulevardRiskRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoulevardRiskRealm/Pods-BoulevardRiskRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoulevardRiskRealm/Pods-BoulevardRiskRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7460F22D5E262B00E7DEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7460FE2D5E262B00E7DEF7 /* BoulevardStartPage.swift in Sources */,
+				FF7461192D5E29C600E7DEF7 /* BoulevardHomePage.swift in Sources */,
+				FF7461252D5E322100E7DEF7 /* UIViewController+tool.m in Sources */,
+				FF7461152D5E28AC00E7DEF7 /* UIView+ra.swift in Sources */,
+				FF74611B2D5E2A0200E7DEF7 /* BoulevardTermPage.swift in Sources */,
+				FF7461122D5E285D00E7DEF7 /* BoulevardSettingPage.swift in Sources */,
+				FF74611F2D5E2A1D00E7DEF7 /* BoulevardPolicyPage.swift in Sources */,
+				FF7461212D5E2CE900E7DEF7 /* BoulevardNavigationController.swift in Sources */,
+				FF74611D2D5E2A0F00E7DEF7 /* BoulevardAboutUsPage.swift in Sources */,
+				FF7460FA2D5E262B00E7DEF7 /* AppDelegate.swift in Sources */,
+				FF7460FC2D5E262B00E7DEF7 /* SceneDelegate.swift in Sources */,
+				FF74610E2D5E282E00E7DEF7 /* BoulevardPokerRiskPage.swift in Sources */,
+				FF7461102D5E284800E7DEF7 /* BoulevardDicePage.swift in Sources */,
+				FF7461172D5E28C300E7DEF7 /* UIViewController+back.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF7460FF2D5E262B00E7DEF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7461002D5E262B00E7DEF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7461042D5E262D00E7DEF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7461052D5E262D00E7DEF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7461082D5E262D00E7DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF7461092D5E262D00E7DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF74610B2D5E262D00E7DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFBF4DF17FA098D7F0B3327 /* Pods-BoulevardRiskRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoulevardRiskRealm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boulevard Risk Realm";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Boulevard Risk Realm Needs access to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.min.risk.BoulevardRiskRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BoulevardRiskRealm/EasyFunc/BoulevardRiskRealm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF74610C2D5E262D00E7DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15E2600E8A897105B060DD0 /* Pods-BoulevardRiskRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoulevardRiskRealm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boulevard Risk Realm";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Boulevard Risk Realm Needs access to certain device information to optimize your gaming experience. By analyzing your device data, we ensure a smooth gaming experience, personalized features and enhanced performance.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.min.risk.BoulevardRiskRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BoulevardRiskRealm/EasyFunc/BoulevardRiskRealm-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7460F12D5E262B00E7DEF7 /* Build configuration list for PBXProject "BoulevardRiskRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7461082D5E262D00E7DEF7 /* Debug */,
+				FF7461092D5E262D00E7DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF74610A2D5E262D00E7DEF7 /* Build configuration list for PBXNativeTarget "BoulevardRiskRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF74610B2D5E262D00E7DEF7 /* Debug */,
+				FF74610C2D5E262D00E7DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7460EE2D5E262B00E7DEF7 /* Project object */;
+}
